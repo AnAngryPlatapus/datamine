@@ -1,0 +1,11 @@
+{
+    "cnn": 
+    {
+        "baseUrl": "https://www.cnn.com",
+        "url": "cd__headline a[href]",
+        "author": "metadata__byline__author",
+        "title": "pg-headline",
+        "siteExtensions": ["/europe", "/middle-east", "/Africa", "/americas", "/asia", "/us", "/politics", "/business", "/opinion", "/health"],
+        "excludes": ["profiles", "videos", "http", "travel", "style"]
+    }
+}
