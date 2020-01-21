@@ -1,6 +1,6 @@
-const getUrls = require("../../utils/url-scraper");
-const fetcher = require("../../utils/fetcher");
-const JSONutil = require("../../utils/JSONutil");
+const getUrls = require("../utils/url-scraper");
+const fetcher = require("../utils/fetcher");
+const JSONutil = require("../utils/JSONutil");
 
 const siteUrl = "https://www.cnn.com";
 
