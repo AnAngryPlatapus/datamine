@@ -1,5 +1,4 @@
 const fetchData = require("./fetchData");
-const getUrls = require("./url-scraper");
 
 const getComponent = async(urls, hAttrAuthor, hAttrTitle, baseUrl) => {
     let component = []; 

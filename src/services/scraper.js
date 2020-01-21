@@ -2,8 +2,6 @@ const getUrls = require("../utils/url-scraper");
 const fetcher = require("../utils/fetcher");
 const JSONutil = require("../utils/JSONutil");
 
-const siteUrl = "https://www.cnn.com";
-
 const getArticles = async(site) => {
     let config = await JSONutil(site);
     console.log("Pulled " + site + " configuration data from repository");

@@ -4,7 +4,6 @@ const getUrls = async(hAttr, extensions, excludes, baseUrl) => {
     const urls = [];
     for(var i = 0; i<extensions.length; i++){
         const url = [];
-        let val = false;
         var stringVals = [];
         var extensionUrl = baseUrl + extensions[i];
         console.log(extensionUrl);
